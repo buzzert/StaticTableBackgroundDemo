@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A66348713D2EB230011002A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A66348613D2EB230011002A /* UIKit.framework */; };
+		1A66348913D2EB230011002A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A66348813D2EB230011002A /* Foundation.framework */; };
+		1A66348B13D2EB230011002A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A66348A13D2EB230011002A /* CoreGraphics.framework */; };
+		1A66349113D2EB230011002A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A66348F13D2EB230011002A /* InfoPlist.strings */; };
+		1A66349313D2EB230011002A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66349213D2EB230011002A /* main.m */; };
+		1A66349713D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66349613D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A66348213D2EB230011002A /* StaticTableBackgroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableBackgroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A66348613D2EB230011002A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A66348813D2EB230011002A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A66348A13D2EB230011002A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A66348E13D2EB230011002A /* StaticTableBackgroundDemo-Info.plist */ = {isa = PBXFileReference; path = "StaticTableBackgroundDemo-Info.plist"; sourceTree = "<group>"; };
+		1A66349013D2EB230011002A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A66349213D2EB230011002A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A66349413D2EB230011002A /* StaticTableBackgroundDemo-Prefix.pch */ = {isa = PBXFileReference; path = "StaticTableBackgroundDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1A66349513D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.h */ = {isa = PBXFileReference; path = StaticTableBackgroundDemoAppDelegate.h; sourceTree = "<group>"; };
+		1A66349613D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticTableBackgroundDemoAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A66347F13D2EB230011002A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A66348713D2EB230011002A /* UIKit.framework in Frameworks */,
+				1A66348913D2EB230011002A /* Foundation.framework in Frameworks */,
+				1A66348B13D2EB230011002A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A66347713D2EB230011002A = {
+			isa = PBXGroup;
+			children = (
+				1A66348C13D2EB230011002A /* StaticTableBackgroundDemo */,
+				1A66348513D2EB230011002A /* Frameworks */,
+				1A66348313D2EB230011002A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A66348313D2EB230011002A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A66348213D2EB230011002A /* StaticTableBackgroundDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A66348513D2EB230011002A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A66348613D2EB230011002A /* UIKit.framework */,
+				1A66348813D2EB230011002A /* Foundation.framework */,
+				1A66348A13D2EB230011002A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A66348C13D2EB230011002A /* StaticTableBackgroundDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A66349513D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.h */,
+				1A66349613D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.m */,
+				1A66348D13D2EB230011002A /* Supporting Files */,
+			);
+			path = StaticTableBackgroundDemo;
+			sourceTree = "<group>";
+		};
+		1A66348D13D2EB230011002A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A66348E13D2EB230011002A /* StaticTableBackgroundDemo-Info.plist */,
+				1A66348F13D2EB230011002A /* InfoPlist.strings */,
+				1A66349213D2EB230011002A /* main.m */,
+				1A66349413D2EB230011002A /* StaticTableBackgroundDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A66348113D2EB230011002A /* StaticTableBackgroundDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A66349A13D2EB230011002A /* Build configuration list for PBXNativeTarget "StaticTableBackgroundDemo" */;
+			buildPhases = (
+				1A66347E13D2EB230011002A /* Sources */,
+				1A66347F13D2EB230011002A /* Frameworks */,
+				1A66348013D2EB230011002A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticTableBackgroundDemo;
+			productName = StaticTableBackgroundDemo;
+			productReference = 1A66348213D2EB230011002A /* StaticTableBackgroundDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A66347913D2EB230011002A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = omegaHern;
+			};
+			buildConfigurationList = 1A66347C13D2EB230011002A /* Build configuration list for PBXProject "StaticTableBackgroundDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A66347713D2EB230011002A;
+			productRefGroup = 1A66348313D2EB230011002A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A66348113D2EB230011002A /* StaticTableBackgroundDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A66348013D2EB230011002A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A66349113D2EB230011002A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A66347E13D2EB230011002A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A66349313D2EB230011002A /* main.m in Sources */,
+				1A66349713D2EB230011002A /* StaticTableBackgroundDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A66348F13D2EB230011002A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A66349013D2EB230011002A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A66349813D2EB230011002A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A66349913D2EB230011002A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A66349B13D2EB230011002A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaticTableBackgroundDemo/StaticTableBackgroundDemo-Prefix.pch";
+				INFOPLIST_FILE = "StaticTableBackgroundDemo/StaticTableBackgroundDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A66349C13D2EB230011002A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaticTableBackgroundDemo/StaticTableBackgroundDemo-Prefix.pch";
+				INFOPLIST_FILE = "StaticTableBackgroundDemo/StaticTableBackgroundDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A66347C13D2EB230011002A /* Build configuration list for PBXProject "StaticTableBackgroundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A66349813D2EB230011002A /* Debug */,
+				1A66349913D2EB230011002A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A66349A13D2EB230011002A /* Build configuration list for PBXNativeTarget "StaticTableBackgroundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A66349B13D2EB230011002A /* Debug */,
+				1A66349C13D2EB230011002A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A66347913D2EB230011002A /* Project object */;
+}
