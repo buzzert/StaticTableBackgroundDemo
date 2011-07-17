@@ -1,0 +1,5 @@
+StaticTableBackgroundDemo
+Author: James Magahern <james@magahern.com>
+
+An example application where one would use a UITableView's backgroundView
+to get similar behaviour to Twitter for iPhone's sign up screen.
